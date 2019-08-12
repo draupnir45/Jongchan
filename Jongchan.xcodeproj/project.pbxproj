@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E142AF9F903C704AAB099E7 /* Pods_Jongchan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC84BF08ADD74537735C55B /* Pods_Jongchan.framework */; };
+		A04699F1F7726905C5E0A7AA /* Pods_JongchanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCDEF073DFCEB0DC16D7C46 /* Pods_JongchanTests.framework */; };
 		B9B823A12301244E00C6F900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B823A02301244E00C6F900 /* AppDelegate.swift */; };
 		B9B823A32301244E00C6F900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B823A22301244E00C6F900 /* ViewController.swift */; };
 		B9B823A62301244E00C6F900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B823A42301244E00C6F900 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062733250C4D729793BBB762 /* Pods-Jongchan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jongchan.debug.xcconfig"; path = "Target Support Files/Pods-Jongchan/Pods-Jongchan.debug.xcconfig"; sourceTree = "<group>"; };
+		1AC84BF08ADD74537735C55B /* Pods_Jongchan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jongchan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA4C4570F656E13D6068A5B /* Pods-JongchanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JongchanTests.release.xcconfig"; path = "Target Support Files/Pods-JongchanTests/Pods-JongchanTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FCDEF073DFCEB0DC16D7C46 /* Pods_JongchanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JongchanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB388359147957D8F8C7937 /* Pods-Jongchan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jongchan.release.xcconfig"; path = "Target Support Files/Pods-Jongchan/Pods-Jongchan.release.xcconfig"; sourceTree = "<group>"; };
 		B9B8239D2301244E00C6F900 /* Jongchan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jongchan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B823A02301244E00C6F900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9B823A22301244E00C6F900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		B9B823B62301263D00C6F900 /* JongchanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JongchanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B823B82301263D00C6F900 /* JongchanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JongchanTests.swift; sourceTree = "<group>"; };
 		B9B823BA2301263D00C6F900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6DA37C16033AF3EE84DD82 /* Pods-JongchanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JongchanTests.debug.xcconfig"; path = "Target Support Files/Pods-JongchanTests/Pods-JongchanTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E142AF9F903C704AAB099E7 /* Pods_Jongchan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04699F1F7726905C5E0A7AA /* Pods_JongchanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2EC680674372F1B57F957DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				062733250C4D729793BBB762 /* Pods-Jongchan.debug.xcconfig */,
+				9FB388359147957D8F8C7937 /* Pods-Jongchan.release.xcconfig */,
+				ED6DA37C16033AF3EE84DD82 /* Pods-JongchanTests.debug.xcconfig */,
+				1FA4C4570F656E13D6068A5B /* Pods-JongchanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B9B823942301244E00C6F900 = {
 			isa = PBXGroup;
 			children = (
 				B9B8239F2301244E00C6F900 /* Jongchan */,
 				B9B823B72301263D00C6F900 /* JongchanTests */,
 				B9B8239E2301244E00C6F900 /* Products */,
+				A2EC680674372F1B57F957DC /* Pods */,
+				ED4AF53DA71FE7D117E4E0C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = JongchanTests;
 			sourceTree = "<group>";
 		};
+		ED4AF53DA71FE7D117E4E0C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AC84BF08ADD74537735C55B /* Pods_Jongchan.framework */,
+				3FCDEF073DFCEB0DC16D7C46 /* Pods_JongchanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9B823AF2301244F00C6F900 /* Build configuration list for PBXNativeTarget "Jongchan" */;
 			buildPhases = (
+				6ABE4EFAD2E2C004C96D9275 /* [CP] Check Pods Manifest.lock */,
 				B9B823992301244E00C6F900 /* Sources */,
 				B9B8239A2301244E00C6F900 /* Frameworks */,
 				B9B8239B2301244E00C6F900 /* Resources */,
+				685F04C00C37B83BCE51E1CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9B823BD2301263D00C6F900 /* Build configuration list for PBXNativeTarget "JongchanTests" */;
 			buildPhases = (
+				ECF27E8BEFA99438F98833D5 /* [CP] Check Pods Manifest.lock */,
 				B9B823B22301263D00C6F900 /* Sources */,
 				B9B823B32301263D00C6F900 /* Frameworks */,
 				B9B823B42301263D00C6F900 /* Resources */,
@@ -191,6 +226,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		685F04C00C37B83BCE51E1CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jongchan/Pods-Jongchan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jongchan/Pods-Jongchan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jongchan/Pods-Jongchan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ABE4EFAD2E2C004C96D9275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jongchan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF27E8BEFA99438F98833D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JongchanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9B823992301244E00C6F900 /* Sources */ = {
@@ -358,11 +457,13 @@
 		};
 		B9B823B02301244F00C6F900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062733250C4D729793BBB762 /* Pods-Jongchan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8KDMCH8V2F;
+				DEVELOPMENT_TEAM = 2FX2C98K9X;
 				INFOPLIST_FILE = Jongchan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,11 +477,13 @@
 		};
 		B9B823B12301244F00C6F900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB388359147957D8F8C7937 /* Pods-Jongchan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8KDMCH8V2F;
+				DEVELOPMENT_TEAM = 2FX2C98K9X;
 				INFOPLIST_FILE = Jongchan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +497,7 @@
 		};
 		B9B823BE2301263D00C6F900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6DA37C16033AF3EE84DD82 /* Pods-JongchanTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -414,6 +518,7 @@
 		};
 		B9B823BF2301263D00C6F900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA4C4570F656E13D6068A5B /* Pods-JongchanTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

@@ -7,12 +7,17 @@
 //
 
 import XCTest
+import Alamofire
 
 class JongchanTests: XCTestCase {
   
   func testExample() {
     
-    XCTFail("일부러 실패시킴. 2019년 8월 12일 오후 1시 58분에 커밋.")
+    if NetworkReachabilityManager()?.isReachable ?? false {
+      print("Reachable!")
+    } else {
+      XCTFail("Unreachable!")
+    }
     
   }
   
