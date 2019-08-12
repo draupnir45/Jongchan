@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    if NetworkReachabilityManager()?.isReachable {
+    if NetworkReachabilityManager()?.isReachable ?? false {
       print("Reachable!")
     }
   }
