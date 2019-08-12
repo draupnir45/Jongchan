@@ -20,6 +20,4 @@ class ViewController: UIViewController {
     print("Remote-auto-commit-test")
   }
 
-
 }
-

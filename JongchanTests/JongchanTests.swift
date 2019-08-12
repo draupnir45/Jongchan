@@ -19,8 +19,6 @@ class JongchanTests: XCTestCase {
       XCTFail("Unreachable!")
     }
     
-    XCTFail("Automatically Tested")
-    
   }
   
 }
