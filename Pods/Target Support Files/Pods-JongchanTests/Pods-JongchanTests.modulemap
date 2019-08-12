@@ -1,0 +1,6 @@
+framework module Pods_JongchanTests {
+  umbrella header "Pods-JongchanTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
