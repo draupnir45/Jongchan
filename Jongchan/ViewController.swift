@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     if NetworkReachabilityManager()?.isReachable ?? false {
       print("Reachable!")
     }
+    
+    print("Remote-auto-commit-test")
   }
 
 
