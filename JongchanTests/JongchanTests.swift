@@ -9,9 +9,11 @@
 import XCTest
 
 class JongchanTests: XCTestCase {
-
-    func testExample() {
-        XCTAssert(1 + 1 != 2)
-    }
-
+  
+  func testExample() {
+    
+    XCTFail("일부러 실패시킴. 2019년 8월 12일 오후 1시 58분에 커밋.")
+    
+  }
+  
 }
